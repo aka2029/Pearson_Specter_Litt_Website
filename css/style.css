@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* utility Classes */
+.text-primary {
+  color: #93cb52;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  position: sticky;
+  top 0; /* This tells the position to sticky */
+  background: #333;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1; /* This wasn't req but still gives sureity */
+  padding: 1rem;
+}
