@@ -1,0 +1,17 @@
+/* Widescreen and tablets */
+
+/* Alig icon to left */
+#what .items .item {
+  display: flex;  /* We are making each of them a flex container so that the content in aligns horizontally with the icon in each of them */
+  text-align: left;
+}
+
+/* Position icon */
+#what .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+}
+
+#contact .map {
+  flex: 2;
+}
